@@ -10,7 +10,7 @@ header {
 
 .A {
     color: white;
-    display:flex ;
+    
     justify-content: space-between;
     align-items: center;
     padding: 65px;
@@ -65,7 +65,7 @@ header {
 }
 
 .C {
-   display: flex;
+
    padding: 40px;
    color: lightgray;
    gap: 20px;
@@ -109,7 +109,7 @@ header {
 
 
   .Staps {
-   display: flex;
+
    padding: 40px;
    color: lightgray;
    gap: 20px;
