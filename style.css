@@ -161,3 +161,33 @@ background:#11143a;
     font-size: 30px;
 }
 }
+
+
+/* --- FIX FOR MOBILE --- */
+@media (max-width: 768px) {
+  /* Make hero section stack */
+  .hero, .top-section, .world-class-section {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  /* Make your 3 cards stack */
+  .C, .features, .cards, .three-cards {
+    flex-direction: column !important;
+  }
+
+  .C .step, .card, .feature-box {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  /* Make image smaller on phone */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 32px !important;
+  }
+}
