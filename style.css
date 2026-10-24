@@ -1,0 +1,163 @@
+body {
+    background: #0A0F2F;
+}
+header {
+    color: white;
+    a {
+      text-decoration: none;
+    }
+}
+
+.A {
+    color: white;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px;
+    background: #0A0F2F
+}
+
+.A .left h1{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1.05;
+}
+.A p {
+ font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   color: lightgray   
+}
+
+
+.A .right {
+  background: transparent;
+  background-color: transparent;
+  animation: float 3s ease-in-out infinite;
+}
+ @keyframes float {
+ 0% {
+    transform: translateY(0px);
+ }
+ 50% {
+    transform: translateY(-20px);
+ }
+ 100% {
+    transform: translateY(0px);
+ }
+ }
+
+
+
+ .B {
+    color: white;
+    text-align: center;
+ }
+ h1 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1,05;
+   }
+ 
+  .B p { 
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   color: lightgray;
+}
+
+.C {
+   display: flex;
+   padding: 40px;
+   color: lightgray;
+   gap: 20px;
+   
+}
+   .C .step {
+   background:#11143a;
+   border-radius: 20px;
+   padding: 30px;
+   width: 320px;
+   margin: 10px;
+  p {
+    font-family: 'Courier New', Courier, monospace
+    line-height: ;
+ h3 {
+  color: white;
+}
+}
+}
+
+
+ .step {
+   img {
+       animation: float 3s ease-in-out infinite;
+}
+ @keyframes float {
+ 0% {
+    transform: translateY(0px);
+ }
+ 50% {
+    transform: translateY(-20px);
+ }
+ 100% {
+    transform: translateY(0px);
+ }
+ }
+
+   }
+ 
+
+
+
+  .Staps {
+   display: flex;
+   padding: 40px;
+   color: lightgray;
+   gap: 20px;
+   
+}
+
+.Staps .stap {
+background:#11143a;
+   border-radius: 20px;
+   padding: 30px;
+   width: 320px;
+   margin: 10px;
+  p {
+    font-family: 'Courier New', Courier, monospace
+    line-height: ;
+ h3 {
+  color: white;
+}
+}
+}
+
+.stap {
+   img {
+       animation: float 3s ease-in-out infinite;
+}
+ @keyframes float {
+ 0% {
+    transform: translateY(0px);
+ }
+ 50% {
+    transform: translateY(-20px);
+ }
+ 100% {
+    transform: translateY(0px);
+ }
+ }
+   }
+   
+
+
+ 
+
+
+
+.D {
+   h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+}
