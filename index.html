@@ -9,45 +9,105 @@
 </head>
 
 <body>
-    <header>
-       <script src="https://www.cryptohopper.com/widgets/js/script"></script>
-      <div class="cryptohopper-web-widget" data-id="2" data-realtime="on" data-ticker_position="header"></div>
-        <nav>
-            <div class="logo">
-                <h1>CryptoVest</h1>
-            </div>
+    <header class="site-header">
 
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="About.us.html">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="Contact.us.html">Contact us</a></li>
-            </ul>
+    <!-- CryptoHopper Market Ticker -->
+    <script src="https://www.cryptohopper.com/widgets/js/script"></script>
 
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-    </header>
+    <div
+        class="cryptohopper-web-widget"
+        data-id="2"
+        data-realtime="on"
+        data-ticker_position="header">
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html">CryptoVest</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="About.us.html">About us</a>
+            </li>
+
+            <li>
+                <a href="#">Services</a>
+            </li>
+
+            <li>
+                <a href="Contact.us.html">Contact us</a>
+            </li>
+
+            <li>
+                <a href="#" class="login-link">Sign in</a>
+            </li>
+
+            <li>
+                <a href="#" class="signup-link">Sign up</a>
+            </li>
+
+        </ul>
+
+        <!-- Right-side Controls -->
+        <div class="nav-controls">
+
+            <!-- Dark / Light Mode Button -->
+            <button
+                class="theme-toggle"
+                type="button"
+                aria-label="Toggle dark and light mode">
+                ☼
+            </button>
+
+            <!-- Mobile Menu Button -->
+            <button
+                class="burger"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
 
 
     <div class="A">
-        <div class="left">
-        <h3 class="rims"> Invest in Global Assets</h3>
-    
+    <div class="left">
+
+        <h3 class="rims">Invest in Global Assets</h3>
+
         <h1>World Class Trading Platform.</h1>
-    
-         <p>At CryptoVest, we are committed to delivering a seamless, innovative, <br>and user-focused trading experience designed to meet your evolving<br> needs in the digital asset market. Our goal is to provide a professional<br> platform that combines modern technology, accessibility, and conveni-<br>ence to support your crypto trading journey.</p>
-         <button>Login</button>
-         <button>Signup</button>
-         </div>
-         <div class="right">
-         <img src="https://files.catbox.moe/o0zly5.png" width="500" height="800" alt="CryptoVest">
-        </div>
+
+        <p>At CryptoVest, we are committed to delivering a seamless, innovative, and user-focused trading experience designed to meet your evolving needs in the digital asset market. Our goal is to provide a professional platform that combines modern technology, accessibility, and convenience to support your crypto trading journey.</p>
+
+        <button class="login-btn">Sign in</button>
+        <button class="signup-btn">Sign up</button>
 
     </div>
+
+    <div class="right">
+        <img src="https://files.catbox.moe/2k7msv.png" width="500" height="400" alt="CryptoVest">
+    </div>
+</div>
 
 
         <div class ="B">
@@ -69,180 +129,427 @@
          <p>Our dedicated support team is here to assist you with platform-related questions and provide guidance whenever you need help navigating CryptoVest.</p> 
          </div>
         
-        <div class="step">
+         <div class="step">
          <img src="https://files.catbox.moe/9qlyyo.png" width="80" alt="CryptoVest">
          <h3>Privacy & Asset Security</h3>
          <p>At CryptoVest, we value your privacy and are committed to protecting your personal information. We handle your data responsibly and do not share your private information without your consent, except where required by law or as outlined in our privacy policy.</p>
         </div>
-        </div>  
+        </div>
          
-        
-        <div class="Staps">
-         <div class="stap">
+        <div class="stap">
+        <div class="stip">
          <img src="https://files.catbox.moe/5gt6k2.png" width="80" alt="CryptoVest"> 
          <h3> Secure & Convenient Payment Methods</h3>
          <p>CryptoVest supports convenient payment options for eligible deposits and withdrawals, making it easier to manage your funds through the available methods on our platform.</p>  
          </div>
-
+         
           
-         <div class="stap">
+         <div class="stip">
          <img src="https://files.catbox.moe/tom7d2.png" width="80" alt="CryptoVest">
          <h3>Fast & Convenient Withdrawals</h3>
          <p>CryptoVest offers a streamlined withdrawal process with multiple supported payment methods, making it convenient to request withdrawals and manage your funds. Processing times may vary depending on the payment method and applicable verification requirements.</p>
          </div>
 
 
-         <div class="stap">
+         <div class="stip">
          <img src="https://files.catbox.moe/63wkwt.png" width="80" alt="CryptoVest">
          <h3>Advanced Security Standards</h3>
          <p>CryptoVest prioritizes platform security by implementing appropriate protective measures designed to help safeguard its website, maintain service availability, and protect against online threats.</p>
         </div>
         </div>
-        
        
        
-        <div class="D">
-        <h2> Why Choose CryptoVest?</h2>
-        <h3>Where Innovation Meets the Future of Crypto Trading</h3>
-    
-        <p>At CryptoVest, we strive to provide an intuitive and accessible platform designed to serve <br>both beginners exploring cryptocurrency markets and experienced users seeking a stream<br>lined digital asset trading experience.</p>
-    
+        <section class="D">
+
+    <h2>Why Choose CryptoVest?</h2>
+
+    <div class="D-content">
+
+        <!-- Left Side -->
+        <div class="Spee">
+
+            <h3>Where Innovation Meets the Future of Crypto Trading</h3>
+
+            <p>
+                At CryptoVest, we strive to provide an intuitive and accessible
+                platform designed to serve both beginners exploring cryptocurrency
+                markets and experienced users seeking a streamlined digital asset
+                trading experience.
+            </p>
+
+            <ol>
+                <li>
+                    <img src="https://files.catbox.moe/u08mlo.png"
+                         alt=""
+                         class="om">
+                    <span>Trade Crypto with Confidence</span>
+                </li>
+
+                <li>
+                    <img src="https://files.catbox.moe/u08mlo.png"
+                         alt=""
+                         class="om">
+                    <span>Trade Anytime, Anywhere!</span>
+                </li>
+
+                <li>
+                    <img src="https://files.catbox.moe/u08mlo.png"
+                         alt=""
+                         class="om">
+                    <span>Driven by Innovation!</span>
+                </li>
+
+                <li>
+                    <img src="https://files.catbox.moe/u08mlo.png"
+                         alt=""
+                         class="om">
+                    <span>Support for Multiple Cryptocurrencies</span>
+                </li>
+
+                <li>
+                    <img src="https://files.catbox.moe/u08mlo.png"
+                         alt=""
+                         class="om">
+                    <span>Enhanced Market Liquidity</span>
+                </li>
+            </ol>
+
         </div>
-       
-     <section class="E">
-      <img src="" alt="">
-      <p>Trade Crypto with Confidence</p>
-     
-      <img src="" alt="">
-      <p>Trade Anytime, Anywhere!</p>
 
-      <img src="" alt="">
-      <p>Driven by Innovation</p>
+        <div class="E">
 
-      <img src="" alt="">
-      <p>Support for Multiple Cryptocurrencies</p>
+            <img
+                src="https://files.catbox.moe/f3gzva.png"
+                alt="Why Choose CryptoVest"
+                class="why-image">
 
-       <img src="" alt="">
-       <p>Enhanced Market Liquidity</p>
+        </div>
 
-     </section>
+    </div>
 
+</section>
 
-       <section class="F">
-         <h2>Customer Satisfaction</h2>
-         <p>Discover what users appreciate about the CryptoVest platform and their experiences <br>navigating our digital asset services.</p>
-    
-       </section>
+        <div class="G">
 
-       <section class="G">
        <h2>Our Numbers Speak for Themselves</h2>
-       <img src="" alt="">
-       <h3>$232M+</h3>
+
+      <div class="yes">
+        <img src="https://files.catbox.moe/dacsqz.png" alt="CryptoVest" width="70" height="70">
+        <h3>$232M+</h3>
         <p>Monthly Trading Volume</p>
-      
-        <img src="" alt="">
+    </div>
+
+    <div class="yes">
+        <img src="https://files.catbox.moe/g0pbql.png" alt="CryptoVest" width="70" height="70">
         <h3>187k+</h3>
         <p>Registered Users</p>
-    
-        <img src="" alt="">
+    </div>
+
+    <div class="yes">
+        <img src="https://files.catbox.moe/rd3ar7.png" alt="CryptoVest" width="70" height="70">
         <h3>683k</h3>
         <p>Annual Trading Transactions</p>
+    </div>
 
-        <img src="" alt="">
+    <div class="yes">
+        <img src="https://files.catbox.moe/seo4f4.png" alt="CryptoVest" width="70" height="70">
         <h3>300+</h3>
         <p>Supported Trading Assets</p>
-      </section>
-        
-        
+    </div>
 
-     <section class="H">
+</div>
+
+
+     <div class="H">
         <h4>Crypto Market Insights & Updates</h4>
         <h2>Crypto Market Insights & Updates</h2>
         <script src="https://www.cryptohopper.com/widgets/js/script"></script>
         <div class="cryptohopper-web-widget" data-id="1" data-realtime="on" data-table_length="10"></div>
-        </section>
+     </div>
 
 
 
 
-     <section class="I">
+        <div class="I">
         <p> How Crypto Copy Trading Works</p>
         <h3>Start Copy Trading in 3 Simple Steps</h3>
-     
-        <h2>1</h2>
+        
+         <div class="rice">
+         <div class="number">1</div>
+        <div class="rices"></div>
          <h3>Create Your CryptoVest Account</h3>
          <p>Create your CryptoVest account and explore the available funding options <br>to get started on your crypto trading journey.</p>
+         </div>
      
-     
-        <h2>2</h2>
+        <div class="rice">
+       <div class="number">2</div>
+        <div class="rices"></div>
         <h3>Choose a Trader to Follow</h3>
         <p>Browse available traders, review their trading strategies and performance his-<br>tory, then select a trader to copy based on your preferences and risk tolerance.</p>
-
-        <h2>3</h2>
+         </div>
+        
+         <div class="rice">
+        <div class="number">3</div>
+        <div class="rices"></div>
         <h3>Track Your Trading Progress</h3>
         <p>When you copy a trader, their eligible trades are replicated in your account acc-<br>ording to your selected settings. Your results depend on the trader’s performance <br>and market conditions, and profits are not guaranteed. You remain responsible for <br>monitoring your investments and managing your risk.</p>
-
-        </section>
-
-
-
-       <section class="J">
-
-       </section>
-        
-
-        <section class="K">
-        <h2>Delivering Excellence in Digital Asset Trading</h2>
-
-        <img src="" alt="">
-        <h3> Forex Market Trading</h3>
-        <p>The foreign exchange (Forex) market is a global, decentralized marketplace where <br>currencies are traded. CryptoVest provides access to trading-related opportunities <br> across supported markets, helping users explore currency pairs and understand mar-<br>ket movements.</p>
-
-
-        <img src="" alt="">
-        <h3> Exchange-Traded Fund (ETF) Trading</h3>
-        <p>Explore exchange-traded funds (ETFs) that provide exposure to a range of assets, in-<br>cluding stocks, bonds, and commodities. Diversify your portfolio and make informed <br>investment decisions based on your financial goals and risk tolerance.</p>
-       
+        </div>
+       </div>
     
-        <img src="" alt="">
+           <div class="J">
+           <div class="testimonials">
+
+    <div class="testimonial-heading">
+        <h2>Satisfied Customers</h2>
+        <p>Discover the experiences of our investment community.</p>
+    </div>
+
+    <div class="testimonial-slider">
+
+        <div class="testimonial-track">
+            <div class="testimonial-card">
+
+                <div class="testimonial-avatar">
+                    <img src="https://i.pravatar.cc/120?img=12" alt="Customer portrait">
+
+                    <span class="quote-icon">&ldquo;</span>
+                </div>
+
+                <div class="testimonial-content">
+
+                    <p class="review-text">
+                        My investment journey has been a learning experience.
+                        I appreciate having access to market information and
+                        tools that help me monitor my portfolio's performance.
+                    </p>
+
+                    <h3>Henry Murphy</h3>
+
+                    <span class="customer-role">Investor</span>
+
+                    <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="testimonial-avatar">
+                    <img src="https://i.pravatar.cc/120?img=47" alt="Customer portrait">
+
+                    <span class="quote-icon">&ldquo;</span>
+                </div>
+
+                <div class="testimonial-content">
+
+                    <p class="review-text">
+                        Trading has taught me the importance of patience
+                        and risk management. I pay closer attention to
+                        market movements and evaluate my trading results
+                        before making decisions.
+                    </p>
+
+                    <h3>Sarah Williams</h3>
+
+                    <span class="customer-role">Trader</span>
+
+                    <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="testimonial-avatar">
+                    <img src="https://i.pravatar.cc/120?img=33" alt="Customer portrait">
+
+                    <span class="quote-icon">&ldquo;</span>
+                </div>
+
+                <div class="testimonial-content">
+
+                    <p class="review-text">
+                        Having a clear process for reviewing my account
+                        and tracking transactions makes managing my funds
+                        more convenient. I always check transaction details
+                        before withdrawing.
+                    </p>
+
+                    <h3>Michael Anderson</h3>
+
+                    <span class="customer-role">Investor</span>
+
+                    <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="testimonial-avatar">
+                    <img src="https://i.pravatar.cc/120?img=44" alt="Customer portrait">
+
+                    <span class="quote-icon">&ldquo;</span>
+                </div>
+
+                <div class="testimonial-content">
+
+                    <p class="review-text">
+                        I've learned to focus on my long-term financial
+                        goals instead of reacting to every market movement.
+                        I regularly review my portfolio and remember that
+                        investment values can fall.
+                    </p>
+
+                    <h3>Jessica Thompson</h3>
+
+                    <span class="customer-role">Long-Term Investor</span>
+
+                    <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <div class="testimonial-avatar">
+                    <img src="https://i.pravatar.cc/120?img=68" alt="Customer portrait">
+
+                    <span class="quote-icon">&ldquo;</span>
+                </div>
+
+                <div class="testimonial-content">
+
+                    <p class="review-text">
+                        Exploring copy trading has helped me understand
+                        how different trading strategies work. I review
+                        performance carefully and consider the risks
+                        before making investment decisions.
+                    </p>
+
+                    <h3>David Wilson</h3>
+
+                    <span class="customer-role">Copy Trading User</span>
+
+                    <div class="testimonial-stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="testimonial-arrow prev"
+                type="button"
+                aria-label="Previous testimonial">
+            &#10094;
+        </button>
+
+        <!-- Next Button -->
+        <button class="testimonial-arrow next"
+                type="button"
+                aria-label="Next testimonial">
+            &#10095;
+        </button>
+
+    </div>
+
+    <div class="testimonial-dots"
+         aria-label="Choose a testimonial">
+    </div>
+
+</div>
+
+         
+           </div>
+        
+        <div class="best">
+
+    <h2>Delivering Excellence in Digital Asset Trading</h2>
+
+    <div class="bet">
+        <img src="https://files.catbox.moe/spjol7.png" width="350" height="100" alt="CryptoVest">
+        <h3>Forex Market Trading</h3>
+        <p>The foreign exchange (Forex) market is a global, decentralized marketplace where currencies are traded. CryptoVest provides access to trading-related opportunities across supported markets, helping users explore currency pairs and understand market movements.</p>
+    </div>
+
+    <div class="bet">
+        <img src="https://files.catbox.moe/3w844k.png" width="350" height="100" alt="CryptoVest">
+        <h3>Exchange-Traded Fund (ETF) Trading</h3>
+        <p>Explore exchange-traded funds (ETFs) that provide exposure to a range of assets, including stocks, bonds, and commodities. Diversify your portfolio and make informed investment decisions based on your financial goals and risk tolerance.</p>
+    </div>
+
+    <div class="bet">
+        <img src="https://files.catbox.moe/7kzakl.png" width="350" height="100" alt="CryptoVest">
         <h3>Crypto Copy Trading</h3>
-        <p>Copy trading allows you to replicate the trading positions of selected traders based on <br>your chosen settings. CryptoVest helps you explore copy trading opportunities while <br>you monitor performance and manage your risk. Trading results may vary, and profits <br>are not guaranteed.</p>
-    
-    
-        <img src="" alt="">
+        <p>Copy trading allows you to replicate the trading positions of selected traders based on your chosen settings. CryptoVest helps you explore copy trading opportunities while you monitor performance and manage your risk. Trading results may vary, and profits are not guaranteed.</p>
+    </div>
+
+    <div class="bet">
+        <img src="https://files.catbox.moe/62k4wr.png" width="500" height="900" alt="CryptoVest">
         <h3>Cryptocurrency Index Trading</h3>
-        <p>Index TradingCryptoVest offers access to index-based trading opportunities, allowing users<br> to explore the performance of selected groups of assets through market indices. Monitor ma-<br>rket trends, analyze price movements, and make informed trading decisions based on your go-<br>als and risk preferences.</p>
-    
-    
-      </section>
+        <p>CryptoVest offers access to index-based trading opportunities, allowing users to explore the performance of selected groups of assets through market indices. Monitor market trends, analyze price movements, and make informed trading decisions based on your goals and risk preferences.</p>
+    </div>
 
-     <footer>
-     
-        <section class="L">
-            <img src="" alt="">
-            <p>At CryptoVest, we deliver a modern, technology-driven trading experience designed to <br>exceed expectations, combining intuitive features, seamless navigation, and convenient access to <br>digital asset markets.</p>
-      
-             <h3>Explore CryptoVest</h3>
-             <p class="ll"> <a href="About.us.html">About us</a> </p>
-             <p class="ll"> <a href="contact.html">Contact us</a> </p>
-             <p class="ll"> <a href="#">Sign in</a> </p>
-             <p class="ll"> <a href="#">Sign up</a> </p>
-             <p class="ll"> <a href="#">Forgot Password</a> </p>
-            
-             <h3>Resources</h3>
-             <p class="ll"> <a href="general.html">General Risk Disclosure</a> </p>
-             <p class="ll"> <a href="pravacy.policy.html">Privacy Policy</a> </p>
-             <p class="ll"> <a href="cookie.policy.html">Cookie Policy</a> </p>
-             <p class="ll"> <a href="responsible.html">Responsible Trading</a> </p>
-            </section>
-      
+</div>
 
-            <section class="M">
-                <p>© 2019–2026 CryptoVest. All Rights Reserved.</p>
-              
-     </footer>
-        
-       
+    <footer class="footer">
+
+    <section class="L">
+
+        <div class="footer-brand">
+            <img src="" alt="CryptoVest Logo">
+
+            <p>
+                At CryptoVest, we deliver a modern, technology-driven trading experience designed to
+                exceed expectations, combining intuitive features, seamless navigation, and convenient
+                access to digital asset markets.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Explore CryptoVest</h3>
+
+            <p class="ll"><a href="About.us.html">About us</a></p>
+            <p class="ll"><a href="contact.html">Contact us</a></p>
+            <p class="ll"><a href="#">Sign in</a></p>
+            <p class="ll"><a href="#">Sign up</a></p>
+            <p class="ll"><a href="#">Forgot Password</a></p>
+        </div>
+
+        <div class="footer-resources">
+            <h3>Resources</h3>
+
+            <p class="ll"><a href="general.html">General Risk Disclosure</a></p>
+            <p class="ll"><a href="pravacy.policy.html">Privacy Policy</a></p>
+            <p class="ll"><a href="cookie.policy.html">Cookie Policy</a></p>
+            <p class="ll"><a href="responsible.html">Responsible Trading</a></p>
+        </div>
+
+    </section>
+
+    <section class="M">
+        <p>© 2019–2026 CryptoVest. All Rights Reserved.</p>
+    </section>
+
+</footer>
+
+       <script src="app.js"></script>
     </body>
 
 </html>
